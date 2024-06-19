@@ -8,3 +8,4 @@ curl_cffi
 streamlit==1.21.0
 selenium
 fake-useragent
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
